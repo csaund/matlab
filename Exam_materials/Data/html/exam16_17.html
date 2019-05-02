@@ -1,0 +1,1470 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>MATLAB exam answers 2016-17</title><meta name="generator" content="MATLAB 9.6"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2019-04-08"><meta name="DC.source" content="exam16_17.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h1>MATLAB exam answers 2016-17</h1><!--introduction--><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Q1. How do the 4 response types (hits, misses, false alarms, correct rejections)</a></li><li><a href="#2">distribute within each culture for each facial expression type?</a></li><li><a href="#4">display figure</a></li><li><a href="#5">Q2. Compute d-prime for each subject and facial expression type.</a></li><li><a href="#6">display figure</a></li><li><a href="#7">Q3. Do any subjects show a significantly higher or lower d-prime than the group (i.e., are potential outliers)?</a></li><li><a href="#8">Q4. Understanding confusions.</a></li><li><a href="#9">display figure</a></li><li><a href="#10">Q5. Understanding the source of low d-prime values (a).</a></li><li><a href="#11">Q6. Understanding the source of d-prime values (b).</a></li><li><a href="#12">Q7. Sharing your data.</a></li><li><a href="#13">End of exam</a></li></ul></div><h2 id="1">Q1. How do the 4 response types (hits, misses, false alarms, correct rejections)</h2><h2 id="2">distribute within each culture for each facial expression type?</h2><p>For each of the 15 individual subjects in each culture, compute the number of hits, misses, false alarms, and correct rejections for each of the four facial expression types (thinking, interested, bored, confused) separately. Display the results of each culture as a 15 (subjects) X 4 (response types) color-coded matrix where red indicates a high number and blue indicates a low number. To compare data across cultures, use a 1 X 2 (cultures) subplot. Include all necessary features (e.g., title, axes titles, colorbar). (3 POINTS)</p><pre class="codeinput">clear <span class="string">all</span>
+
+<span class="comment">% set up variables from folder</span>
+<span class="comment">% go to folder</span>
+cd(<span class="string">'/Users/carolynsaund/glasgow/matlab/Exam_materials/Data'</span>)
+od = pwd;
+
+<span class="comment">% extract all variables from folders</span>
+end_folder_name = <span class="string">' subjects'</span>;
+folders = dir([<span class="string">'*'</span> end_folder_name]);
+nr_cultures = length(folders);
+
+cultures = cell(1, nr_cultures);
+<span class="keyword">for</span> cults = 1:nr_cultures
+    cultures{cults} = folders(cults).name(1:end - length(end_folder_name));
+<span class="keyword">end</span>
+
+
+<span class="comment">% *assuming that all subjects have the same number of trials*</span>
+cd([od <span class="string">'/'</span> cultures{1} end_folder_name])
+files = dir(<span class="string">'data_sj_*.mat'</span>);
+nr_subjects = length(files);
+
+load(files(1).name)
+tmp = lower(unique(word_all));
+social_messages = tmp([4 3 1 2]); <span class="comment">% re-order to match coding of responses</span>
+nr_social_messages = length(social_messages);
+nr_trials = length(resps);
+
+
+<span class="comment">% now prepare the data in a useable way</span>
+<span class="comment">% prepare matrix for all data</span>
+all_data = zeros(nr_trials, 4, nr_subjects, nr_cultures);
+
+<span class="keyword">for</span> culture = 1:nr_cultures
+
+    <span class="comment">% change directory for each culture</span>
+    cd([od <span class="string">'/'</span> cultures{culture} end_folder_name])
+
+    <span class="comment">% directory of files</span>
+    files = dir(<span class="string">'*.mat'</span>);
+
+    <span class="keyword">for</span> subject = 1:nr_subjects
+
+       fname = files(subject).name;
+       load(fname)
+
+       <span class="comment">% resps = 1 - yes, 2 - no</span>
+       <span class="comment">% sti_cat = 1 - thinking, 2 - interested, 3 - bored, and 4 - confused</span>
+       <span class="comment">% word_all = word presented on each trial</span>
+
+       <span class="comment">% first, convert all words to numbers</span>
+       word_numbers = zeros(nr_trials, 1);
+       <span class="keyword">for</span> trials = 1:nr_trials
+           word_numbers(trials, 1) = find(strcmpi(word_all{trials}, social_messages));
+       <span class="keyword">end</span>
+
+       <span class="comment">% responses,  facial expression types,  words presented on each trial</span>
+       all_data(:, :, subject, culture) = [sti_cat, word_numbers, resps, model_num];
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+</pre><pre class="codeinput"><span class="comment">% hits, misses, false alarms, correct rejections</span>
+response_types = {<span class="string">'hits'</span>, <span class="string">'miss'</span>, <span class="string">'FA'</span>, <span class="string">'CR'</span>};
+nr_response_types = length(response_types);
+
+
+<span class="comment">% analyse for each facial expression type and culture</span>
+<span class="comment">% prepare matrix for response types</span>
+response_patterns = zeros(nr_subjects, nr_response_types, nr_social_messages, nr_cultures);
+
+<span class="keyword">for</span> facial_expression_type = 1:nr_social_messages
+    <span class="keyword">for</span> culture = 1:nr_cultures
+        <span class="keyword">for</span> subject = 1:nr_subjects
+
+            <span class="comment">% extract relevant trials</span>
+            loc_trials = all_data(:, 1, subject, culture) == facial_expression_type; <span class="comment">% facial expression type</span>
+            word_numbers = all_data(loc_trials, 2, subject, culture); <span class="comment">% words</span>
+            resps = all_data(loc_trials, 3, subject, culture);  <span class="comment">% yes/no</span>
+
+            <span class="comment">% find and compute number of each response type</span>
+            hits = sum(resps == 1 &amp; word_numbers == facial_expression_type); <span class="comment">% hits</span>
+            misses = sum(resps == 2 &amp; word_numbers == facial_expression_type); <span class="comment">% misses</span>
+            false_alarms = sum(resps == 1 &amp; word_numbers  ~= facial_expression_type); <span class="comment">% false alarms</span>
+            correct_reject = sum(resps == 2 &amp; word_numbers ~= facial_expression_type); <span class="comment">% correct rejection</span>
+
+            <span class="comment">% store data</span>
+            response_patterns(subject, :, facial_expression_type, culture) = [hits, misses, false_alarms, correct_reject];
+        <span class="keyword">end</span>
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+</pre><h2 id="4">display figure</h2><pre class="codeinput"><span class="comment">% find max and min to display data using same scale</span>
+max_val = max(response_patterns(:));
+min_val = min(response_patterns(:));
+
+colormap <span class="string">jet</span>
+<span class="keyword">for</span> facial_expression_type = 1:nr_social_messages
+    figure,
+
+    <span class="keyword">for</span> culture = 1:nr_cultures
+
+        subplot(1, 2, culture)
+        imagesc(response_patterns(:, :, facial_expression_type, culture), [min_val max_val])
+        set(gca, <span class="string">'XTick'</span>, 1:nr_response_types, <span class="string">'XTickLabel'</span>, response_types)
+        title(cultures{culture})
+
+        <span class="keyword">if</span> culture == 1
+            ylabel(<span class="string">'Participants'</span>)
+            xlabel(<span class="string">'Response types'</span>)
+        <span class="keyword">else</span>
+            colorbar
+        <span class="keyword">end</span>
+    <span class="keyword">end</span>
+    <span class="comment">% suptitle(social_messages{facial_expression_type});</span>
+<span class="keyword">end</span>
+</pre><img vspace="5" hspace="5" src="exam16_17_01.png" alt=""> <img vspace="5" hspace="5" src="exam16_17_02.png" alt=""> <img vspace="5" hspace="5" src="exam16_17_03.png" alt=""> <img vspace="5" hspace="5" src="exam16_17_04.png" alt=""> <img vspace="5" hspace="5" src="exam16_17_05.png" alt=""> <h2 id="5">Q2. Compute d-prime for each subject and facial expression type.</h2><p>Using the necessary proportions of hits and false alarms, compute d-prime for each individual subject in each culture for each facial expression type separately. Plot your results as individual points using a 2 x 2 (4 facial expression types) with the data of each culture shown side by side. Include all necessary features (e.g., title, axes titles, colorbar). (3 POINTS)</p><pre class="codeinput"><span class="comment">% d-prime is computed based on the proportion of hits and false alarms</span>
+<span class="comment">% as computed across match and mismatch trials</span>
+<span class="comment">% therefore, hits and false alarms are *independent*</span>
+
+<span class="comment">% CARO adding this here because I guess somehow they put dprime in the wes</span>
+<span class="comment">% sub folder?</span>
+cd(<span class="string">'/Users/carolynsaund/glasgow/matlab/Exam_materials/Data'</span>)
+
+
+<span class="comment">% convert any 0s or 1s to avoif Inf</span>
+response_patterns(response_patterns == 1) = .99999;
+response_patterns(response_patterns == 0) = .00001;
+
+
+<span class="comment">% prepare matrix for data storage</span>
+dp = zeros(nr_subjects, nr_social_messages, nr_cultures);
+hits_fa_proportion = zeros(nr_subjects, 2, nr_social_messages, nr_cultures);
+
+<span class="keyword">for</span> culture = 1:nr_cultures
+    <span class="keyword">for</span> facial_expression_type = 1:nr_social_messages
+        <span class="keyword">for</span> subject = 1:nr_subjects
+
+            <span class="comment">% extract hits and false alarms</span>
+            hits = response_patterns(subject, 1, facial_expression_type, culture);
+            false_alarms = response_patterns(subject, 3, facial_expression_type, culture);
+
+            <span class="comment">% compute proportion based on number of matches (hits) and</span>
+            <span class="comment">% mismatches (false alarms)</span>
+
+            <span class="comment">% get trial information</span>
+            <span class="comment">% sti_cat, word_numbers, resps</span>
+            loc_trial_info = all_data(:, 1, subject, culture) == facial_expression_type;
+
+            <span class="comment">% count number of matches</span>
+            nr_matches = sum(all_data(loc_trial_info, 2, subject, culture) == facial_expression_type);
+            nr_mismatches = sum(loc_trial_info) - nr_matches;
+
+            <span class="comment">% compute proportions</span>
+            hits_proportion = hits ./ nr_matches;
+            FA_proportion = false_alarms ./ nr_mismatches;
+
+            <span class="comment">% store for later</span>
+            hits_fa_proportion(subject, :, facial_expression_type, culture) = [hits_proportion, FA_proportion];
+
+            <span class="comment">% compute d-prime with downloaded function</span>
+            dp(subject, facial_expression_type, culture) = dprime_simple(hits_proportion, FA_proportion);
+        <span class="keyword">end</span>
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+</pre><h2 id="6">display figure</h2><pre class="codeinput"><span class="comment">% get max and min values to display on the same scale</span>
+max_dp = max(dp(:));
+min_dp = min(dp(:));
+
+figure,
+<span class="keyword">for</span> facial_expression_type = 1:nr_social_messages
+    <span class="keyword">for</span> culture = 1:nr_cultures
+
+        subplot(2, 2, facial_expression_type)
+
+        data = dp(:, facial_expression_type, culture);
+        y = ones(size(data)) .* culture;
+        plot(y, data, <span class="string">'o'</span>, <span class="string">'MarkerFaceColor'</span>, <span class="string">'w'</span>, <span class="string">'MarkerEdgeColor'</span>, <span class="string">'w'</span>)
+        hold <span class="string">on</span>
+        set(gca, <span class="string">'XTick'</span>, 1:nr_cultures, <span class="string">'XTickLabel'</span>, cultures)
+        axis([0 nr_cultures + 1 min_dp max_dp + 1])
+        ylabel(<span class="string">'d-prime'</span>)
+    <span class="keyword">end</span>
+    title(social_messages(facial_expression_type))
+<span class="keyword">end</span>
+
+whitebg([0 0 0])
+</pre><img vspace="5" hspace="5" src="exam16_17_06.png" alt=""> <h2 id="7">Q3. Do any subjects show a significantly higher or lower d-prime than the group (i.e., are potential outliers)?</h2><p>For each culture and facial expression type separately, compute the Z-score of each subject's d-prime and show whether it is significantly above, significantly below, or not significantly different from the mean. Replot your data as in Q2 above using asterisks to indicate any significant differences. Save this figure as a .tiff file in a new folder called Results Figures. (3 POINTS)</p><pre class="codeinput">thresh = 1.96; <span class="comment">% for two tailed 0.05</span>
+figure,
+<span class="keyword">for</span> facial_expression_type = 1:nr_social_messages
+    <span class="keyword">for</span> culture = 1:nr_cultures
+
+        data = dp(:, facial_expression_type, culture);
+        <span class="comment">% plot data as before</span>
+
+        subplot(2, 2, facial_expression_type)
+        y = ones(size(data)) .* culture;
+        plot(y, data, <span class="string">'o'</span>, <span class="string">'MarkerFaceColor'</span>, <span class="string">'w'</span>, <span class="string">'MarkerEdgeColor'</span>, <span class="string">'w'</span>)
+        hold <span class="string">on</span>
+        set(gca, <span class="string">'XTick'</span>, 1:nr_cultures, <span class="string">'XTickLabel'</span>, cultures)
+        axis([0 nr_cultures + 1 min_dp max_dp + 1])
+        ylabel(<span class="string">'d-prime'</span>)
+        hold <span class="string">on</span>
+
+        <span class="comment">% Z score and significance</span>
+        Z_scores = (data - mean(data)) ./ std(data);
+        signif_diffs = data(abs(Z_scores) &gt;= thresh);
+        nr_sig_diffs = length(signif_diffs);
+
+        <span class="comment">% plot asterisks</span>
+        <span class="keyword">for</span> sig_diff = 1:nr_sig_diffs
+            plot(culture, signif_diffs(sig_diff), <span class="string">'*-r'</span>)
+            hold <span class="string">on</span>
+        <span class="keyword">end</span>
+    <span class="keyword">end</span>
+    title(social_messages(facial_expression_type))
+<span class="keyword">end</span>
+
+<span class="comment">% make new folder and save figure within it</span>
+new_folder_name = <span class="string">'Results Figures'</span>;
+mkdir(new_folder_name)
+cd([od <span class="string">'/'</span> new_folder_name])
+print(<span class="string">'Distribution of d-prime values'</span>, <span class="string">'-dtiff'</span>)
+</pre><pre class="codeoutput">Warning: Directory already exists. 
+</pre><img vspace="5" hspace="5" src="exam16_17_07.png" alt=""> <h2 id="8">Q4. Understanding confusions.</h2><p>False alarms occur when subjects report the presence of a signal (here, a social message such as 'confused') when it is not present (that is, when the facial expression presented does not match the label). To examine any patterns of confusion, create a matrix that shows for each social message label (y-axis) the number of "yes" responses to each of the different facial expression types (x-axis). If subjects tend to be accurate, the diagonal squares will have high values. Display your results as a color-coded matrix using a different color map from Q1. To compare data across cultures, use a 1 X 2 (cultures) subplot. Include all necessary features (e.g., title, axes titles, colorbar). Save this figure as a .jpg file in the Results Figures folder (3 POINTS)</p><pre class="codeinput"><span class="comment">% reshape matrix into more useable format</span>
+data_rejigged = reshape(permute(all_data, [1, 3, 2, 4]),[nr_trials .* nr_subjects, 4, nr_cultures]);
+
+<span class="comment">% prepare matrix for data storage</span>
+confusion_matrix = zeros(nr_social_messages, nr_social_messages, nr_cultures);
+
+
+<span class="keyword">for</span> culture = 1:nr_cultures
+
+    <span class="comment">% find all yes responses</span>
+    yes_responses = data_rejigged(data_rejigged(:, 3, culture) == 1, :, culture);
+    nr_trials_all = size(yes_responses, 1);
+
+    <span class="comment">% organise each trial into matrix</span>
+    <span class="keyword">for</span> trial = 1:nr_trials_all
+
+        facial_expression_type = yes_responses(trial, 1); <span class="comment">% stimulus category</span>
+        word = yes_responses(trial, 2); <span class="comment">% word presented with stimulus</span>
+        confusion_matrix(word, facial_expression_type, culture) = confusion_matrix(word, facial_expression_type, culture) + 1;
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+</pre><h2 id="9">display figure</h2><pre class="codeinput">max_yes = max(confusion_matrix(:));
+
+figure,
+<span class="keyword">for</span> culture = 1:nr_cultures
+
+    subplot(1, 2, culture)
+    imagesc(confusion_matrix(:, :, culture), [0 max_yes])
+
+    axis <span class="string">image</span>
+    set(gca, <span class="string">'YTick'</span>, 1:nr_social_messages, <span class="string">'YTickLabel'</span>, social_messages)
+    set(gca, <span class="string">'XTick'</span>, 1:nr_social_messages, <span class="string">'XTickLabel'</span>, social_messages)
+    ylabel(<span class="string">'Words'</span>)
+    xlabel(<span class="string">'Facial expression'</span>)
+
+    title(cultures{culture})
+    colorbar
+<span class="keyword">end</span>
+
+<span class="comment">% change colormap, print and save figure</span>
+colormap <span class="string">hot</span>
+cd([od <span class="string">'/'</span> new_folder_name])
+print(<span class="string">'Confusion_matrices'</span>, <span class="string">'-djpeg'</span>)
+</pre><img vspace="5" hspace="5" src="exam16_17_08.png" alt=""> <h2 id="10">Q5. Understanding the source of low d-prime values (a).</h2><p>D-prime values can reflect 1 of four response patterns</p><pre class="codeinput"><span class="comment">% (a) high hits, low false alarms (facial expressions transmit the intended social message to the subject),</span>
+<span class="comment">% (b) low hits, high false alarms (the facial expressions transmit another social message to the subject than the one intended; they are confused with another message),</span>
+<span class="comment">% (c) high hits, high false alarms (the facial expressions transmit more than one social message to the subject; they are ambiguous),</span>
+<span class="comment">% (d) low hits, low false alarms (the facial expressions do not transmit any social message to the subject).</span>
+<span class="comment">% For each facial expression type and culture separately, create a figure that shows how each subject's responses distribute across</span>
+<span class="comment">% these four different response categories</span>
+<span class="comment">% Include all necessary features (e.g., title, axes titles, colorbar). (3 POINTS)</span>
+
+culture_color = {<span class="string">'r'</span>, <span class="string">'b'</span>};
+
+figure,
+<span class="keyword">for</span> facial_expression_type = 1:nr_social_messages
+    <span class="keyword">for</span> culture = 1:nr_cultures
+
+        <span class="comment">% extract hits and false alarm rate</span>
+        hits_prop = hits_fa_proportion(:, 1, facial_expression_type, culture);
+        fa_prop = hits_fa_proportion(:, 2, facial_expression_type, culture);
+
+        <span class="comment">% plot colored points per culture</span>
+        subplot(2, 2, facial_expression_type)
+        plot(fa_prop, hits_prop, <span class="string">'o'</span>, <span class="string">'MarkerFaceColor'</span>, culture_color{culture}, <span class="string">'MarkerEdgeColor'</span>, <span class="string">'w'</span>)
+        hold <span class="string">on</span>
+
+        axis([0 1 0 1])
+        xlabel(<span class="string">'False Alarm Rate'</span>)
+        ylabel(<span class="string">'Hit Rate'</span>)
+    <span class="keyword">end</span>
+
+    title(social_messages{facial_expression_type})
+
+    <span class="comment">% add a dashed line for the four quadrants</span>
+    hold <span class="string">on</span>
+    x = 0:.1:1;
+    y = repmat(.5, [1 length(x)]);
+    plot(x, y, <span class="string">'LineStyle'</span>, <span class="string">'--'</span>, <span class="string">'Color'</span>, <span class="string">'w'</span>)
+
+    hold <span class="string">on</span>
+    y = x;
+    x = repmat(.5, [1 length(x)]);
+    plot(x, y, <span class="string">'LineStyle'</span>, <span class="string">'--'</span>, <span class="string">'Color'</span>, <span class="string">'w'</span>)
+
+<span class="keyword">end</span>
+legend(cultures, <span class="string">'Location'</span>, <span class="string">'SouthEast'</span>)
+</pre><img vspace="5" hspace="5" src="exam16_17_09.png" alt=""> <h2 id="11">Q6. Understanding the source of d-prime values (b).</h2><p>A subject's d-prime value could also be diminished or increased by specific facial expressions that omit or include specific face movements (Action Units - AUs) that are necessary for accurate recognition. To examine this, show how d-prime varies as a function of specific AU presence or absence in the facial expressions.</p><pre class="codeinput"><span class="comment">% To do this, compute for each facial expression type and culture separately the d-prime value of each individual</span>
+<span class="comment">% facial expression by pooling the responses of the subjects. Then for each individual AU, compute separate average</span>
+<span class="comment">% d-prime values for when the AU is present and when it is absent, and compute the difference between them.</span>
+<span class="comment">% Plot your results using the y-axis for the AUs and the x-axis for the</span>
+<span class="comment">% difference in d-prime values. Using subplotting and color-coding as you see fit.</span>
+<span class="comment">% Add a white line demarcating the point of zero difference.</span>
+<span class="comment">% Include all necessary features (e.g., title, axes titles, colorbar).</span>
+<span class="comment">% Finally, for each facial expression type and culture separately, rank the AUs according to their diagnosticity</span>
+<span class="comment">% - that is the magnitude of the increase in d-prime when they are present</span>
+<span class="comment">% - and show a list of their AU names in the command line</span>
+<span class="comment">%(4 POINTS)</span>
+
+cd(od)
+load <span class="string">facial_expression_models</span>
+load <span class="string">long_names42</span>
+[~, nr_aus, ~, nr_models] = size(data_EA_20sj);
+
+dp_facial_expressions = zeros(nr_models, nr_social_messages, nr_cultures);
+cultures_short = {<span class="string">'EA'</span>, <span class="string">'WC'</span>};
+
+figure,
+<span class="keyword">for</span> culture = 1:nr_cultures
+    <span class="keyword">for</span> facial_expression_type = 1:nr_social_messages
+        <span class="keyword">for</span> model = 1:nr_models
+
+            <span class="comment">% extract data for facial expression type and specific model</span>
+            loc_data = data_rejigged(:, 1, culture) == facial_expression_type &amp; data_rejigged(:, 4, culture) == model;
+            data = data_rejigged(loc_data, 2:3, culture);
+
+            <span class="comment">% number of matches and mismatches</span>
+            nr_matches = sum(data(:, 1) == facial_expression_type);
+            nr_mismatches = sum(data(:, 1) ~= facial_expression_type);
+
+            <span class="comment">% hits and false alarms</span>
+            hits = sum(data(:, 1) == facial_expression_type &amp; data(:, 2) == 1);
+            false_alarms = sum(data(:, 1) ~= facial_expression_type &amp; data(:, 2) == 1);
+
+            <span class="comment">% compute proportions</span>
+            hits_proportion = hits ./ nr_matches;
+            FA_proportion = false_alarms ./ nr_mismatches;
+
+            <span class="comment">% compute d-prime per model with downloaded function</span>
+            dp_facial_expressions(model, facial_expression_type, culture) = dprime_simple(hits_proportion, FA_proportion);
+        <span class="keyword">end</span>
+
+
+        <span class="comment">% compute average d-prime across all AUs when present versus absent</span>
+        mn_dp_au = zeros(nr_aus, 2);
+
+        <span class="keyword">for</span> au = 1:nr_aus
+            eval([<span class="string">'loc_model_au = logical(squeeze(data_'</span> cultures_short{culture} <span class="string">'_20sj(1, au, facial_expression_type, :)));'</span>])
+
+            <span class="comment">% absent</span>
+            mn_dp_au(au, 1) = median(dp_facial_expressions(~loc_model_au, facial_expression_type, culture));
+
+            <span class="comment">% present</span>
+            mn_dp_au(au, 2) = median(dp_facial_expressions(loc_model_au, facial_expression_type, culture));
+        <span class="keyword">end</span>
+
+        <span class="comment">% positive - present is higher than absent</span>
+        <span class="comment">% negative - absent is higher than present</span>
+        difference_dp = diff(mn_dp_au, 1, 2);
+
+        subplot(2, 2, facial_expression_type)
+        y = difference_dp;
+        x = 1:nr_aus;
+        plot(y, x, <span class="string">'o'</span>, <span class="string">'MarkerFaceColor'</span>, culture_color{culture}, <span class="string">'MarkerEdgeColor'</span>, <span class="string">'w'</span>)
+        hold <span class="string">on</span>
+        set(gca, <span class="string">'YTick'</span>, 1:nr_aus, <span class="string">'YTickLabel'</span>, long_names42)
+        title(social_messages(facial_expression_type))
+
+        <span class="keyword">if</span> facial_expression_type == 2
+            legend(cultures, <span class="string">'Location'</span>, <span class="string">'NorthWest'</span>)
+        <span class="keyword">end</span>
+
+        <span class="comment">% add dashed line</span>
+        hold <span class="string">on</span>
+        x = zeros(1, nr_aus);
+        y = 1:nr_aus;
+        plot(x, y, <span class="string">'LineStyle'</span>, <span class="string">'--'</span>, <span class="string">'Color'</span>, <span class="string">'w'</span>)
+
+        <span class="comment">% rank AUs</span>
+        [sorted, ind] = sort(difference_dp, <span class="string">'descend'</span>);
+        long_names42(ind)
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+</pre><pre class="codeoutput">
+ans =
+
+  42&times;1 cell array
+
+    {'UpperLipRaiserL'    }
+    {'NasolabialDeepenerL'}
+    {'NasolabialDeepenerR'}
+    {'LipCornerPuller'    }
+    {'LipCornerPullerL'   }
+    {'SharpLipPuller'     }
+    {'Dimpler'            }
+    {'12-6'               }
+    {'LidTightener'       }
+    {'LidTightenerL'      }
+    {'LidTightenerR'      }
+    {'LipStretcherL'      }
+    {'CheekRaiserR'       }
+    {'LipCornerDepressor' }
+    {'CheekRaiserL'       }
+    {'LipCornerPullerR'   }
+    {'LipPressor'         }
+    {'CheekRaiser'        }
+    {'BrowLowerer'        }
+    {'LipTightener'       }
+    {'DimplerL'           }
+    {'DimplerR'           }
+    {'NostrilDilator'     }
+    {'OuterBrowRaiserL'   }
+    {'UpperLidRaiser'     }
+    {'EyesClosed'         }
+    {'1-2'                }
+    {'LipStretcherR'      }
+    {'ChinRaiser'         }
+    {'NostrilCompressor'  }
+    {'OuterBrowRaiser'    }
+    {'InnerBrowRaiser'    }
+    {'NoseWrinkler'       }
+    {'LipsPart'           }
+    {'UpperLipRaiser'     }
+    {'UpperLipRaiserR'    }
+    {'LipStretcher'       }
+    {'LowerLipDepressor'  }
+    {'25-12'              }
+    {'JawDrop'            }
+    {'MouthStretch'       }
+    {'LipFunneler'        }
+
+Warning: Ignoring extra legend entries. 
+
+ans =
+
+  42&times;1 cell array
+
+    {'OuterBrowRaiser'    }
+    {'BrowLowerer'        }
+    {'CheekRaiserR'       }
+    {'NoseWrinkler'       }
+    {'UpperLipRaiser'     }
+    {'UpperLipRaiserL'    }
+    {'UpperLipRaiserR'    }
+    {'NasolabialDeepenerL'}
+    {'NasolabialDeepenerR'}
+    {'LipCornerDepressor' }
+    {'LowerLipDepressor'  }
+    {'ChinRaiser'         }
+    {'LipStretcher'       }
+    {'LipStretcherL'      }
+    {'LipStretcherR'      }
+    {'LipTightener'       }
+    {'LipPressor'         }
+    {'LipsPart'           }
+    {'JawDrop'            }
+    {'NostrilDilator'     }
+    {'NostrilCompressor'  }
+    {'EyesClosed'         }
+    {'LidTightener'       }
+    {'LipCornerPuller'    }
+    {'DimplerL'           }
+    {'Dimpler'            }
+    {'SharpLipPuller'     }
+    {'25-12'              }
+    {'LipCornerPullerR'   }
+    {'LidTightenerR'      }
+    {'LipCornerPullerL'   }
+    {'LidTightenerL'      }
+    {'LipFunneler'        }
+    {'CheekRaiser'        }
+    {'OuterBrowRaiserL'   }
+    {'1-2'                }
+    {'InnerBrowRaiser'    }
+    {'12-6'               }
+    {'DimplerR'           }
+    {'UpperLidRaiser'     }
+    {'MouthStretch'       }
+    {'CheekRaiserL'       }
+
+
+ans =
+
+  42&times;1 cell array
+
+    {'InnerBrowRaiser'    }
+    {'1-2'                }
+    {'OuterBrowRaiser'    }
+    {'OuterBrowRaiserL'   }
+    {'BrowLowerer'        }
+    {'UpperLidRaiser'     }
+    {'LidTightenerL'      }
+    {'LidTightenerR'      }
+    {'Dimpler'            }
+    {'LipTightener'       }
+    {'NostrilDilator'     }
+    {'LidTightener'       }
+    {'UpperLipRaiserR'    }
+    {'UpperLipRaiserL'    }
+    {'NasolabialDeepenerR'}
+    {'LipStretcher'       }
+    {'LipStretcherL'      }
+    {'LipCornerDepressor' }
+    {'LipFunneler'        }
+    {'NasolabialDeepenerL'}
+    {'CheekRaiserR'       }
+    {'LipStretcherR'      }
+    {'LowerLipDepressor'  }
+    {'MouthStretch'       }
+    {'NostrilCompressor'  }
+    {'UpperLipRaiser'     }
+    {'JawDrop'            }
+    {'ChinRaiser'         }
+    {'CheekRaiserL'       }
+    {'LipPressor'         }
+    {'DimplerR'           }
+    {'LipsPart'           }
+    {'25-12'              }
+    {'NoseWrinkler'       }
+    {'LipCornerPullerR'   }
+    {'LipCornerPullerL'   }
+    {'EyesClosed'         }
+    {'DimplerL'           }
+    {'LipCornerPuller'    }
+    {'SharpLipPuller'     }
+    {'12-6'               }
+    {'CheekRaiser'        }
+
+
+ans =
+
+  42&times;1 cell array
+
+    {'1-2'                }
+    {'OuterBrowRaiser'    }
+    {'UpperLidRaiser'     }
+    {'NasolabialDeepenerL'}
+    {'LipCornerPuller'    }
+    {'25-12'              }
+    {'LipCornerPullerL'   }
+    {'SharpLipPuller'     }
+    {'Dimpler'            }
+    {'DimplerL'           }
+    {'LipCornerDepressor' }
+    {'NostrilDilator'     }
+    {'EyesClosed'         }
+    {'12-6'               }
+    {'BrowLowerer'        }
+    {'MouthStretch'       }
+    {'JawDrop'            }
+    {'LowerLipDepressor'  }
+    {'LipsPart'           }
+    {'CheekRaiser'        }
+    {'LidTightenerR'      }
+    {'OuterBrowRaiserL'   }
+    {'LipFunneler'        }
+    {'CheekRaiserR'       }
+    {'NoseWrinkler'       }
+    {'UpperLipRaiserR'    }
+    {'CheekRaiserL'       }
+    {'NostrilCompressor'  }
+    {'UpperLipRaiserL'    }
+    {'UpperLipRaiser'     }
+    {'LipStretcher'       }
+    {'LipPressor'         }
+    {'InnerBrowRaiser'    }
+    {'LidTightenerL'      }
+    {'LipStretcherL'      }
+    {'LipTightener'       }
+    {'ChinRaiser'         }
+    {'LidTightener'       }
+    {'NasolabialDeepenerR'}
+    {'LipCornerPullerR'   }
+    {'DimplerR'           }
+    {'LipStretcherR'      }
+
+
+ans =
+
+  42&times;1 cell array
+
+    {'NoseWrinkler'       }
+    {'UpperLipRaiser'     }
+    {'UpperLipRaiserL'    }
+    {'UpperLipRaiserR'    }
+    {'LipCornerPuller'    }
+    {'25-12'              }
+    {'LipCornerPullerR'   }
+    {'LowerLipDepressor'  }
+    {'LipStretcher'       }
+    {'LipFunneler'        }
+    {'LipsPart'           }
+    {'JawDrop'            }
+    {'MouthStretch'       }
+    {'12-6'               }
+    {'OuterBrowRaiser'    }
+    {'OuterBrowRaiserL'   }
+    {'InnerBrowRaiser'    }
+    {'UpperLidRaiser'     }
+    {'LidTightenerL'      }
+    {'CheekRaiserL'       }
+    {'BrowLowerer'        }
+    {'NostrilDilator'     }
+    {'LidTightenerR'      }
+    {'NostrilCompressor'  }
+    {'1-2'                }
+    {'CheekRaiser'        }
+    {'LidTightener'       }
+    {'LipCornerDepressor' }
+    {'ChinRaiser'         }
+    {'LipCornerPullerL'   }
+    {'SharpLipPuller'     }
+    {'LipTightener'       }
+    {'DimplerL'           }
+    {'NasolabialDeepenerR'}
+    {'Dimpler'            }
+    {'LipStretcherR'      }
+    {'CheekRaiserR'       }
+    {'LipPressor'         }
+    {'DimplerR'           }
+    {'LipStretcherL'      }
+    {'NasolabialDeepenerL'}
+    {'EyesClosed'         }
+
+
+ans =
+
+  42&times;1 cell array
+
+    {'BrowLowerer'        }
+    {'CheekRaiser'        }
+    {'CheekRaiserL'       }
+    {'CheekRaiserR'       }
+    {'LidTightenerR'      }
+    {'NoseWrinkler'       }
+    {'UpperLipRaiser'     }
+    {'UpperLipRaiserL'    }
+    {'UpperLipRaiserR'    }
+    {'NasolabialDeepenerL'}
+    {'NasolabialDeepenerR'}
+    {'LipCornerDepressor' }
+    {'ChinRaiser'         }
+    {'LipStretcherL'      }
+    {'LipStretcherR'      }
+    {'LipTightener'       }
+    {'LipPressor'         }
+    {'NostrilCompressor'  }
+    {'EyesClosed'         }
+    {'LidTightener'       }
+    {'LipCornerPuller'    }
+    {'Dimpler'            }
+    {'25-12'              }
+    {'12-6'               }
+    {'LipCornerPullerR'   }
+    {'OuterBrowRaiser'    }
+    {'UpperLidRaiser'     }
+    {'InnerBrowRaiser'    }
+    {'NostrilDilator'     }
+    {'LipCornerPullerL'   }
+    {'SharpLipPuller'     }
+    {'JawDrop'            }
+    {'MouthStretch'       }
+    {'DimplerL'           }
+    {'DimplerR'           }
+    {'1-2'                }
+    {'OuterBrowRaiserL'   }
+    {'LidTightenerL'      }
+    {'LipFunneler'        }
+    {'LowerLipDepressor'  }
+    {'LipsPart'           }
+    {'LipStretcher'       }
+
+
+ans =
+
+  42&times;1 cell array
+
+    {'BrowLowerer'        }
+    {'LidTightenerL'      }
+    {'LidTightenerR'      }
+    {'25-12'              }
+    {'Dimpler'            }
+    {'LipCornerDepressor' }
+    {'LipStretcher'       }
+    {'LipStretcherR'      }
+    {'LipsPart'           }
+    {'NostrilDilator'     }
+    {'NostrilCompressor'  }
+    {'EyesClosed'         }
+    {'LidTightener'       }
+    {'12-6'               }
+    {'UpperLipRaiserL'    }
+    {'LipStretcherL'      }
+    {'JawDrop'            }
+    {'LipFunneler'        }
+    {'MouthStretch'       }
+    {'UpperLipRaiser'     }
+    {'DimplerL'           }
+    {'LowerLipDepressor'  }
+    {'CheekRaiser'        }
+    {'CheekRaiserR'       }
+    {'NasolabialDeepenerR'}
+    {'SharpLipPuller'     }
+    {'ChinRaiser'         }
+    {'UpperLipRaiserR'    }
+    {'LipCornerPullerR'   }
+    {'CheekRaiserL'       }
+    {'InnerBrowRaiser'    }
+    {'1-2'                }
+    {'OuterBrowRaiser'    }
+    {'OuterBrowRaiserL'   }
+    {'LipCornerPuller'    }
+    {'UpperLidRaiser'     }
+    {'NasolabialDeepenerL'}
+    {'LipCornerPullerL'   }
+    {'LipPressor'         }
+    {'NoseWrinkler'       }
+    {'DimplerR'           }
+    {'LipTightener'       }
+
+
+ans =
+
+  42&times;1 cell array
+
+    {'InnerBrowRaiser'    }
+    {'1-2'                }
+    {'OuterBrowRaiser'    }
+    {'OuterBrowRaiserL'   }
+    {'UpperLipRaiser'     }
+    {'NasolabialDeepenerL'}
+    {'LipCornerPuller'    }
+    {'LipCornerPullerL'   }
+    {'LipCornerPullerR'   }
+    {'SharpLipPuller'     }
+    {'Dimpler'            }
+    {'LipCornerDepressor' }
+    {'LipTightener'       }
+    {'LipPressor'         }
+    {'JawDrop'            }
+    {'NostrilDilator'     }
+    {'EyesClosed'         }
+    {'12-6'               }
+    {'UpperLidRaiser'     }
+    {'DimplerL'           }
+    {'LipStretcherL'      }
+    {'LipStretcher'       }
+    {'DimplerR'           }
+    {'LipStretcherR'      }
+    {'ChinRaiser'         }
+    {'NostrilCompressor'  }
+    {'LidTightener'       }
+    {'BrowLowerer'        }
+    {'LidTightenerL'      }
+    {'LipsPart'           }
+    {'NasolabialDeepenerR'}
+    {'CheekRaiserL'       }
+    {'NoseWrinkler'       }
+    {'LowerLipDepressor'  }
+    {'25-12'              }
+    {'CheekRaiser'        }
+    {'UpperLipRaiserL'    }
+    {'CheekRaiserR'       }
+    {'UpperLipRaiserR'    }
+    {'LidTightenerR'      }
+    {'LipFunneler'        }
+    {'MouthStretch'       }
+
+</pre><img vspace="5" hspace="5" src="exam16_17_10.png" alt=""> <h2 id="12">Q7. Sharing your data.</h2><p>You need to send all of your data to a collaborator in another lab. Since they do not use MATLAB, they need all the data prepared and saved as .xls files. Prepare and save all of your data as .txt files using a sensible arrangement. (3 POINTS)</p><pre class="codeinput"><span class="comment">% 1.	facial_expression_models.mat (per culture)</span>
+<span class="comment">% (a)	Temporal parameters: (1): AU is present ? 1, absent ? 0, (2) AU peak amplitude, (3) AU peak latency, (4) AU onset latency, (5), AU offset latency, (6) AU deceleration, (7) AU acceleration. Values for 2 -7 have been normalized to the range 0-1.</span>
+<span class="comment">% (b)	AUs: Corresponding AU names can be found in long_names42.mat</span>
+<span class="comment">% (c)	Social messages: 1 ? thinking, 2 ? interested, 3 ? bored, and 4 ? confused</span>
+<span class="comment">% (d)	Individual facial expressions. Location corresponds with the numbers in model_num (see 3d below)</span>
+
+
+
+new_dir = [od <span class="string">'/Files_for_my_collaborator'</span>];
+mkdir(new_dir)
+cd(new_dir)
+
+temporal_parameters = {<span class="string">'on_off'</span>, <span class="string">'peak_amplitude'</span>, <span class="string">'peak_latency'</span>, <span class="string">'onset_latency'</span>, <span class="string">'offset_latency'</span>, <span class="string">'deceleration'</span>, <span class="string">'acceleration'</span>};
+response_labels = {<span class="string">'yes'</span>, <span class="string">'no'</span>};
+
+
+<span class="keyword">for</span> culture = 1:nr_cultures
+    <span class="keyword">for</span> facial_expression_type = 1:nr_social_messages
+
+        <span class="comment">% 1. stimulus information for each observer in each culture</span>
+        <span class="keyword">for</span> model = 1:nr_models
+
+            <span class="comment">% extract the facial expression model</span>
+            eval([<span class="string">'AU_pattern = data_'</span> cultures_short{culture} <span class="string">'_20sj(:, :, facial_expression_type, model)'''</span> <span class="string">';'</span>])
+            stimulus_information = array2table(AU_pattern, <span class="string">'RowNames'</span>, long_names42, <span class="string">'VariableNames'</span>, temporal_parameters);
+
+            fname = [cultures{culture} <span class="string">'_stimulus_information_model_'</span> num2str(model) <span class="string">'.txt'</span>];
+            writetable(stimulus_information, fname); <span class="comment">% saves as .txt file</span>
+        <span class="keyword">end</span>
+
+
+        <span class="comment">% 2. Behavioural responses</span>
+        <span class="comment">% prepare cell array space</span>
+
+        face_on_trial = cell(nr_trials, 1);
+        word_on_trial = face_on_trial;
+        response_on_trial = face_on_trial;
+
+
+        <span class="keyword">for</span> subjects = 1:nr_subjects
+
+            <span class="comment">% model numbers</span>
+            model_numbers = all_data(:, 4, subject, culture);
+
+            <span class="comment">% convert nuumbers to words where necessary</span>
+            stimulus_category = all_data(:, 1, subject, culture);
+            word_presented = all_data(:, 2, subject, culture);
+            response_type = all_data(:, 3, subject, culture);
+
+            <span class="keyword">for</span> stim_cat = 1:nr_social_messages
+
+                <span class="comment">% facial expression</span>
+                loc = find(stimulus_category == stim_cat)';
+                face_on_trial(loc) = repmat(social_messages(stim_cat), size(loc));
+
+                <span class="comment">% word on trial</span>
+                loc = find(word_presented == stim_cat)';
+                word_on_trial(loc) = repmat(social_messages(stim_cat), size(loc));
+            <span class="keyword">end</span>
+
+            <span class="comment">% yes/no response</span>
+            <span class="keyword">for</span> resp_type = 1:length(response_labels)
+                loc = find(response_type == resp_type);
+                response_on_trial(loc) = repmat(response_labels(resp_type), size(loc));
+            <span class="keyword">end</span>
+
+            <span class="comment">% write to file</span>
+            behavioural_data = table(model_numbers, face_on_trial, word_on_trial, response_on_trial);
+            fname = [cultures{culture} <span class="string">'_behavioural_data_subject_'</span> num2str(subjects) <span class="string">'.txt'</span>];
+            writetable(behavioural_data, fname); <span class="comment">% saves as .txt file</span>
+        <span class="keyword">end</span>
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+</pre><pre class="codeoutput">Warning: Directory already exists. 
+</pre><h2 id="13">End of exam</h2><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2019a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% MATLAB exam answers 2016-17
+
+
+%% Q1. How do the 4 response types (hits, misses, false alarms, correct rejections) 
+%% distribute within each culture for each facial expression type? 
+% For each of the 15 individual subjects in each culture, compute the number of 
+% hits, misses, false alarms, and correct rejections for each of the four facial expression types (thinking, interested, bored, confused)
+% separately. Display the results of each culture as a 15 (subjects) X 4 (response types) color-coded matrix 
+% where red indicates a high number and blue indicates a low number. To compare data across cultures, 
+% use a 1 X 2 (cultures) subplot. Include all necessary features (e.g., title, axes titles, colorbar). (3 POINTS)
+
+
+clear all 
+
+% set up variables from folder 
+% go to folder 
+cd('/Users/carolynsaund/glasgow/matlab/Exam_materials/Data')
+od = pwd;
+
+% extract all variables from folders 
+end_folder_name = ' subjects';
+folders = dir(['*' end_folder_name]);
+nr_cultures = length(folders);
+
+cultures = cell(1, nr_cultures);
+for cults = 1:nr_cultures
+    cultures{cults} = folders(cults).name(1:end - length(end_folder_name));
+end
+
+
+% *assuming that all subjects have the same number of trials*
+cd([od '/' cultures{1} end_folder_name])
+files = dir('data_sj_*.mat');
+nr_subjects = length(files);
+
+load(files(1).name) 
+tmp = lower(unique(word_all));
+social_messages = tmp([4 3 1 2]); % re-order to match coding of responses
+nr_social_messages = length(social_messages);
+nr_trials = length(resps);
+
+
+% now prepare the data in a useable way 
+% prepare matrix for all data 
+all_data = zeros(nr_trials, 4, nr_subjects, nr_cultures);
+
+for culture = 1:nr_cultures
+    
+    % change directory for each culture
+    cd([od '/' cultures{culture} end_folder_name])
+    
+    % directory of files
+    files = dir('*.mat');
+    
+    for subject = 1:nr_subjects
+        
+       fname = files(subject).name;
+       load(fname)
+       
+       % resps = 1 - yes, 2 - no
+       % sti_cat = 1 - thinking, 2 - interested, 3 - bored, and 4 - confused
+       % word_all = word presented on each trial
+       
+       % first, convert all words to numbers
+       word_numbers = zeros(nr_trials, 1);
+       for trials = 1:nr_trials
+           word_numbers(trials, 1) = find(strcmpi(word_all{trials}, social_messages));
+       end
+       
+       % responses,  facial expression types,  words presented on each trial
+       all_data(:, :, subject, culture) = [sti_cat, word_numbers, resps, model_num];   
+    end 
+end 
+
+
+%%
+
+% hits, misses, false alarms, correct rejections 
+response_types = {'hits', 'miss', 'FA', 'CR'};
+nr_response_types = length(response_types); 
+             
+
+% analyse for each facial expression type and culture
+% prepare matrix for response types
+response_patterns = zeros(nr_subjects, nr_response_types, nr_social_messages, nr_cultures);
+
+for facial_expression_type = 1:nr_social_messages  
+    for culture = 1:nr_cultures
+        for subject = 1:nr_subjects
+            
+            % extract relevant trials
+            loc_trials = all_data(:, 1, subject, culture) == facial_expression_type; % facial expression type
+            word_numbers = all_data(loc_trials, 2, subject, culture); % words
+            resps = all_data(loc_trials, 3, subject, culture);  % yes/no
+            
+            % find and compute number of each response type
+            hits = sum(resps == 1 & word_numbers == facial_expression_type); % hits
+            misses = sum(resps == 2 & word_numbers == facial_expression_type); % misses
+            false_alarms = sum(resps == 1 & word_numbers  ~= facial_expression_type); % false alarms
+            correct_reject = sum(resps == 2 & word_numbers ~= facial_expression_type); % correct rejection
+            
+            % store data
+            response_patterns(subject, :, facial_expression_type, culture) = [hits, misses, false_alarms, correct_reject];
+        end    
+    end 
+end
+
+
+%% display figure
+
+% find max and min to display data using same scale
+max_val = max(response_patterns(:));
+min_val = min(response_patterns(:));
+
+colormap jet
+for facial_expression_type = 1:nr_social_messages
+    figure,
+    
+    for culture = 1:nr_cultures
+        
+        subplot(1, 2, culture)
+        imagesc(response_patterns(:, :, facial_expression_type, culture), [min_val max_val])
+        set(gca, 'XTick', 1:nr_response_types, 'XTickLabel', response_types)
+        title(cultures{culture})
+        
+        if culture == 1
+            ylabel('Participants')
+            xlabel('Response types')
+        else
+            colorbar
+        end
+    end
+    % suptitle(social_messages{facial_expression_type});
+end
+
+   
+%% Q2. Compute d-prime for each subject and facial expression type. 
+% Using the necessary proportions of hits and false alarms, compute d-prime
+% for each individual subject in each culture for each facial expression type separately. 
+% Plot your results as individual points using a 2 x 2 (4 facial expression types) with the 
+% data of each culture shown side by side. 
+% Include all necessary features (e.g., title, axes titles, colorbar). (3 POINTS)
+
+
+% d-prime is computed based on the proportion of hits and false alarms
+% as computed across match and mismatch trials
+% therefore, hits and false alarms are *independent*
+
+% CARO adding this here because I guess somehow they put dprime in the wes
+% sub folder?
+cd('/Users/carolynsaund/glasgow/matlab/Exam_materials/Data')
+
+
+% convert any 0s or 1s to avoif Inf
+response_patterns(response_patterns == 1) = .99999;
+response_patterns(response_patterns == 0) = .00001;
+
+
+% prepare matrix for data storage
+dp = zeros(nr_subjects, nr_social_messages, nr_cultures);
+hits_fa_proportion = zeros(nr_subjects, 2, nr_social_messages, nr_cultures);
+
+for culture = 1:nr_cultures
+    for facial_expression_type = 1:nr_social_messages
+        for subject = 1:nr_subjects
+            
+            % extract hits and false alarms
+            hits = response_patterns(subject, 1, facial_expression_type, culture);
+            false_alarms = response_patterns(subject, 3, facial_expression_type, culture);
+            
+            % compute proportion based on number of matches (hits) and
+            % mismatches (false alarms)
+            
+            % get trial information
+            % sti_cat, word_numbers, resps
+            loc_trial_info = all_data(:, 1, subject, culture) == facial_expression_type;
+            
+            % count number of matches
+            nr_matches = sum(all_data(loc_trial_info, 2, subject, culture) == facial_expression_type);
+            nr_mismatches = sum(loc_trial_info) - nr_matches;
+            
+            % compute proportions
+            hits_proportion = hits ./ nr_matches;
+            FA_proportion = false_alarms ./ nr_mismatches;
+            
+            % store for later 
+            hits_fa_proportion(subject, :, facial_expression_type, culture) = [hits_proportion, FA_proportion];
+            
+            % compute d-prime with downloaded function
+            dp(subject, facial_expression_type, culture) = dprime_simple(hits_proportion, FA_proportion);
+        end
+    end
+end
+
+
+%% display figure 
+
+% get max and min values to display on the same scale
+max_dp = max(dp(:));
+min_dp = min(dp(:));
+
+figure, 
+for facial_expression_type = 1:nr_social_messages
+    for culture = 1:nr_cultures
+        
+        subplot(2, 2, facial_expression_type)
+        
+        data = dp(:, facial_expression_type, culture);
+        y = ones(size(data)) .* culture;
+        plot(y, data, 'o', 'MarkerFaceColor', 'w', 'MarkerEdgeColor', 'w')
+        hold on 
+        set(gca, 'XTick', 1:nr_cultures, 'XTickLabel', cultures)
+        axis([0 nr_cultures + 1 min_dp max_dp + 1])
+        ylabel('d-prime')
+    end
+    title(social_messages(facial_expression_type))
+end
+
+whitebg([0 0 0])
+
+
+%% Q3. Do any subjects show a significantly higher or lower d-prime than the group (i.e., are potential outliers)? 
+% For each culture and facial expression type separately, compute the Z-score of each subject's d-prime 
+% and show whether it is significantly above, significantly below, or not significantly different 
+% from the mean. Replot your data as in Q2 above using asterisks to indicate any 
+% significant differences. Save this figure as a .tiff file in a new folder called Results Figures. (3 POINTS)
+
+
+thresh = 1.96; % for two tailed 0.05
+figure, 
+for facial_expression_type = 1:nr_social_messages
+    for culture = 1:nr_cultures
+        
+        data = dp(:, facial_expression_type, culture);
+        % plot data as before
+        
+        subplot(2, 2, facial_expression_type)
+        y = ones(size(data)) .* culture;
+        plot(y, data, 'o', 'MarkerFaceColor', 'w', 'MarkerEdgeColor', 'w')
+        hold on
+        set(gca, 'XTick', 1:nr_cultures, 'XTickLabel', cultures)
+        axis([0 nr_cultures + 1 min_dp max_dp + 1])
+        ylabel('d-prime')
+        hold on
+        
+        % Z score and significance
+        Z_scores = (data - mean(data)) ./ std(data);
+        signif_diffs = data(abs(Z_scores) >= thresh);
+        nr_sig_diffs = length(signif_diffs);
+        
+        % plot asterisks
+        for sig_diff = 1:nr_sig_diffs
+            plot(culture, signif_diffs(sig_diff), '*-r')
+            hold on 
+        end 
+    end
+    title(social_messages(facial_expression_type))
+end
+
+% make new folder and save figure within it 
+new_folder_name = 'Results Figures';
+mkdir(new_folder_name)
+cd([od '/' new_folder_name])
+print('Distribution of d-prime values', '-dtiff')
+
+
+%% Q4. Understanding confusions. 
+% False alarms occur when subjects report the presence of a signal (here, a social message such as 'confused') when it is not present 
+% (that is, when the facial expression presented does not match the label). To examine any patterns of confusion, 
+% create a matrix that shows for each social message label (y-axis) the number of "yes" responses to each of the different 
+% facial expression types (x-axis). If subjects tend to be accurate, the diagonal squares will have high values. 
+% Display your results as a color-coded matrix using a different color map from Q1. 
+% To compare data across cultures, use a 1 X 2 (cultures) subplot. 
+% Include all necessary features (e.g., title, axes titles, colorbar). 
+% Save this figure as a .jpg file in the Results Figures folder (3 POINTS)
+
+
+% reshape matrix into more useable format 
+data_rejigged = reshape(permute(all_data, [1, 3, 2, 4]),[nr_trials .* nr_subjects, 4, nr_cultures]);
+
+% prepare matrix for data storage
+confusion_matrix = zeros(nr_social_messages, nr_social_messages, nr_cultures);
+
+
+for culture = 1:nr_cultures
+    
+    % find all yes responses
+    yes_responses = data_rejigged(data_rejigged(:, 3, culture) == 1, :, culture);
+    nr_trials_all = size(yes_responses, 1);
+    
+    % organise each trial into matrix
+    for trial = 1:nr_trials_all
+        
+        facial_expression_type = yes_responses(trial, 1); % stimulus category
+        word = yes_responses(trial, 2); % word presented with stimulus        
+        confusion_matrix(word, facial_expression_type, culture) = confusion_matrix(word, facial_expression_type, culture) + 1;
+    end    
+end 
+
+
+%% display figure 
+
+max_yes = max(confusion_matrix(:));
+
+figure, 
+for culture = 1:nr_cultures
+
+    subplot(1, 2, culture)
+    imagesc(confusion_matrix(:, :, culture), [0 max_yes])
+    
+    axis image
+    set(gca, 'YTick', 1:nr_social_messages, 'YTickLabel', social_messages)
+    set(gca, 'XTick', 1:nr_social_messages, 'XTickLabel', social_messages)
+    ylabel('Words')
+    xlabel('Facial expression')
+    
+    title(cultures{culture})
+    colorbar
+end
+
+% change colormap, print and save figure 
+colormap hot 
+cd([od '/' new_folder_name])
+print('Confusion_matrices', '-djpeg')
+
+
+%% Q5. Understanding the source of low d-prime values (a). 
+% D-prime values can reflect 1 of four response patterns
+
+% (a) high hits, low false alarms (facial expressions transmit the intended social message to the subject), 
+% (b) low hits, high false alarms (the facial expressions transmit another social message to the subject than the one intended; they are confused with another message), 
+% (c) high hits, high false alarms (the facial expressions transmit more than one social message to the subject; they are ambiguous), 
+% (d) low hits, low false alarms (the facial expressions do not transmit any social message to the subject). 
+% For each facial expression type and culture separately, create a figure that shows how each subject's responses distribute across 
+% these four different response categories
+% Include all necessary features (e.g., title, axes titles, colorbar). (3 POINTS)
+
+culture_color = {'r', 'b'};
+
+figure,
+for facial_expression_type = 1:nr_social_messages
+    for culture = 1:nr_cultures
+        
+        % extract hits and false alarm rate
+        hits_prop = hits_fa_proportion(:, 1, facial_expression_type, culture);
+        fa_prop = hits_fa_proportion(:, 2, facial_expression_type, culture);
+        
+        % plot colored points per culture
+        subplot(2, 2, facial_expression_type)
+        plot(fa_prop, hits_prop, 'o', 'MarkerFaceColor', culture_color{culture}, 'MarkerEdgeColor', 'w')
+        hold on 
+        
+        axis([0 1 0 1])
+        xlabel('False Alarm Rate')
+        ylabel('Hit Rate')
+    end
+    
+    title(social_messages{facial_expression_type})
+    
+    % add a dashed line for the four quadrants
+    hold on 
+    x = 0:.1:1;
+    y = repmat(.5, [1 length(x)]);
+    plot(x, y, 'LineStyle', 'REPLACE_WITH_DASH_DASH', 'Color', 'w')
+    
+    hold on 
+    y = x;
+    x = repmat(.5, [1 length(x)]);
+    plot(x, y, 'LineStyle', 'REPLACE_WITH_DASH_DASH', 'Color', 'w')
+    
+end
+legend(cultures, 'Location', 'SouthEast')
+
+%% Q6. Understanding the source of d-prime values (b). 
+% A subject's d-prime value could also be diminished or increased by specific facial expressions that omit or include 
+% specific face movements (Action Units - AUs) that are necessary for accurate recognition. To examine this, show how 
+% d-prime varies as a function of specific AU presence or absence in the facial expressions. 
+
+% To do this, compute for each facial expression type and culture separately the d-prime value of each individual 
+% facial expression by pooling the responses of the subjects. Then for each individual AU, compute separate average 
+% d-prime values for when the AU is present and when it is absent, and compute the difference between them. 
+% Plot your results using the y-axis for the AUs and the x-axis for the
+% difference in d-prime values. Using subplotting and color-coding as you see fit. 
+% Add a white line demarcating the point of zero difference. 
+% Include all necessary features (e.g., title, axes titles, colorbar). 
+% Finally, for each facial expression type and culture separately, rank the AUs according to their diagnosticity 
+% - that is the magnitude of the increase in d-prime when they are present
+% - and show a list of their AU names in the command line 
+%(4 POINTS)
+
+cd(od)
+load facial_expression_models
+load long_names42
+[~, nr_aus, ~, nr_models] = size(data_EA_20sj);
+
+dp_facial_expressions = zeros(nr_models, nr_social_messages, nr_cultures);
+cultures_short = {'EA', 'WC'};
+
+figure, 
+for culture = 1:nr_cultures
+    for facial_expression_type = 1:nr_social_messages
+        for model = 1:nr_models
+            
+            % extract data for facial expression type and specific model
+            loc_data = data_rejigged(:, 1, culture) == facial_expression_type & data_rejigged(:, 4, culture) == model;
+            data = data_rejigged(loc_data, 2:3, culture);
+            
+            % number of matches and mismatches
+            nr_matches = sum(data(:, 1) == facial_expression_type);
+            nr_mismatches = sum(data(:, 1) ~= facial_expression_type);
+            
+            % hits and false alarms 
+            hits = sum(data(:, 1) == facial_expression_type & data(:, 2) == 1);
+            false_alarms = sum(data(:, 1) ~= facial_expression_type & data(:, 2) == 1);
+            
+            % compute proportions
+            hits_proportion = hits ./ nr_matches;
+            FA_proportion = false_alarms ./ nr_mismatches;
+            
+            % compute d-prime per model with downloaded function
+            dp_facial_expressions(model, facial_expression_type, culture) = dprime_simple(hits_proportion, FA_proportion);
+        end
+        
+        
+        % compute average d-prime across all AUs when present versus absent
+        mn_dp_au = zeros(nr_aus, 2);
+        
+        for au = 1:nr_aus
+            eval(['loc_model_au = logical(squeeze(data_' cultures_short{culture} '_20sj(1, au, facial_expression_type, :)));'])
+            
+            % absent
+            mn_dp_au(au, 1) = median(dp_facial_expressions(~loc_model_au, facial_expression_type, culture));
+            
+            % present
+            mn_dp_au(au, 2) = median(dp_facial_expressions(loc_model_au, facial_expression_type, culture)); 
+        end
+        
+        % positive - present is higher than absent 
+        % negative - absent is higher than present 
+        difference_dp = diff(mn_dp_au, 1, 2);
+        
+        subplot(2, 2, facial_expression_type)
+        y = difference_dp;
+        x = 1:nr_aus;
+        plot(y, x, 'o', 'MarkerFaceColor', culture_color{culture}, 'MarkerEdgeColor', 'w')
+        hold on
+        set(gca, 'YTick', 1:nr_aus, 'YTickLabel', long_names42)
+        title(social_messages(facial_expression_type))
+        
+        if facial_expression_type == 2
+            legend(cultures, 'Location', 'NorthWest')
+        end
+        
+        % add dashed line
+        hold on
+        x = zeros(1, nr_aus);
+        y = 1:nr_aus;
+        plot(x, y, 'LineStyle', 'REPLACE_WITH_DASH_DASH', 'Color', 'w')
+        
+        % rank AUs
+        [sorted, ind] = sort(difference_dp, 'descend');
+        long_names42(ind)
+    end
+end
+ 
+%% Q7. Sharing your data. 
+% You need to send all of your data to a collaborator in another lab. 
+% Since they do not use MATLAB, they need all the data prepared and saved as .xls files. 
+% Prepare and save all of your data as .txt files using a sensible arrangement. (3 POINTS)           
+
+% 1.	facial_expression_models.mat (per culture)
+% (a)	Temporal parameters: (1): AU is present ? 1, absent ? 0, (2) AU peak amplitude, (3) AU peak latency, (4) AU onset latency, (5), AU offset latency, (6) AU deceleration, (7) AU acceleration. Values for 2 -7 have been normalized to the range 0-1.
+% (b)	AUs: Corresponding AU names can be found in long_names42.mat
+% (c)	Social messages: 1 ? thinking, 2 ? interested, 3 ? bored, and 4 ? confused
+% (d)	Individual facial expressions. Location corresponds with the numbers in model_num (see 3d below)
+
+
+
+new_dir = [od '/Files_for_my_collaborator'];
+mkdir(new_dir)
+cd(new_dir)
+
+temporal_parameters = {'on_off', 'peak_amplitude', 'peak_latency', 'onset_latency', 'offset_latency', 'deceleration', 'acceleration'};
+response_labels = {'yes', 'no'};
+
+
+for culture = 1:nr_cultures
+    for facial_expression_type = 1:nr_social_messages
+        
+        % 1. stimulus information for each observer in each culture
+        for model = 1:nr_models
+            
+            % extract the facial expression model
+            eval(['AU_pattern = data_' cultures_short{culture} '_20sj(:, :, facial_expression_type, model)''' ';'])
+            stimulus_information = array2table(AU_pattern, 'RowNames', long_names42, 'VariableNames', temporal_parameters);
+            
+            fname = [cultures{culture} '_stimulus_information_model_' num2str(model) '.txt'];
+            writetable(stimulus_information, fname); % saves as .txt file
+        end
+        
+        
+        % 2. Behavioural responses
+        % prepare cell array space 
+        
+        face_on_trial = cell(nr_trials, 1);
+        word_on_trial = face_on_trial;
+        response_on_trial = face_on_trial;
+        
+        
+        for subjects = 1:nr_subjects
+            
+            % model numbers 
+            model_numbers = all_data(:, 4, subject, culture);
+            
+            % convert nuumbers to words where necessary 
+            stimulus_category = all_data(:, 1, subject, culture);
+            word_presented = all_data(:, 2, subject, culture);
+            response_type = all_data(:, 3, subject, culture);
+            
+            for stim_cat = 1:nr_social_messages
+                
+                % facial expression 
+                loc = find(stimulus_category == stim_cat)';
+                face_on_trial(loc) = repmat(social_messages(stim_cat), size(loc));
+                
+                % word on trial
+                loc = find(word_presented == stim_cat)';
+                word_on_trial(loc) = repmat(social_messages(stim_cat), size(loc));
+            end
+            
+            % yes/no response 
+            for resp_type = 1:length(response_labels)
+                loc = find(response_type == resp_type);
+                response_on_trial(loc) = repmat(response_labels(resp_type), size(loc));
+            end 
+          
+            % write to file 
+            behavioural_data = table(model_numbers, face_on_trial, word_on_trial, response_on_trial);
+            fname = [cultures{culture} '_behavioural_data_subject_' num2str(subjects) '.txt'];
+            writetable(behavioural_data, fname); % saves as .txt file
+        end
+    end
+end
+
+%% End of exam
+##### SOURCE END #####
+--></body></html>
